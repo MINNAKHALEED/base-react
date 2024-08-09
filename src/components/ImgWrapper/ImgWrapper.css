@@ -1,0 +1,26 @@
+
+.imgwrapperdiv{
+  width: 40%;
+  height: 100%; 
+}
+
+.imgwrapperdiv >img{
+  width: 100%;
+   height: 100%;   
+  
+}  
+
+
+
+
+@media(max-width:500px){
+  .imgwrapperdiv{
+  width: 100%;
+  display: none;
+
+  }
+
+  .imgwrapperdiv >img{
+    display: none;
+  }
+}
